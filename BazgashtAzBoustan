@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int x,y;
+int x1,y1;
+cin >> x >> y;
+cin >> x1 >> y1;
+        if(x < x1)
+            cout << "Right" << endl;
+        else if( x >= x1)
+                 cout <<"Left" << endl;
+return 0;
+}
