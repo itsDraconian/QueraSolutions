@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int k,min;
+cin >> k;
+min=(k*(k+1))/2;
+cout << min;
+}
