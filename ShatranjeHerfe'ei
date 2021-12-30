@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+const int shah = 1 ;
+const int vazir = 1 ;
+const int rokh = 2 ;
+const int fil = 2 ;
+const int asb = 2 ;
+const int sarbaz = 8 ;
+int Shah,Vazir,Rokh,Fil,Asb,Sarbaz;
+cin >> Shah >> Vazir >> Rokh >> Fil >> Asb >>Sarbaz;
+cout << shah-Shah << " " << vazir-Vazir << " " << rokh-Rokh << " " << fil-Fil << " " <<  asb-Asb << " " <<  sarbaz-Sarbaz;
+return 0;
+}
