@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+float q,temp = 0;
+int k,M,p,x=1;
+cin >> k;
+while (M<k)
+{
+    temp = temp + x;
+    M = 1;
+    for (int i = 1; i < temp ; i++ )
+        {
+        q=(temp/i);
+        p=(temp/i);
+            if ((p==q))
+            {
+                M++;
+            }
+        }
+x++;
+}
+cout << temp;
+return 0;
+}
