@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a,i=0;
+    cin >> a;
+    cout << "W";
+    for(i=0;i<a;i++)
+        {
+          cout << "o" ; 
+        }
+    cout << "w!";
+    return 0;
+}
