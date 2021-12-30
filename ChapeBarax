@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+int n=1;
+int num[1000];
+int i=0;
+while(n != 0)
+		{
+			cin >> n;
+			num[i] = n;
+			i++;
+		}
+int j;
+j = i-2;
+for(j;j>=0;j--)
+	{
+		cout << num[j] << endl;
+	}
+    return 0;
+}
