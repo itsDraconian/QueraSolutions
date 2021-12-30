@@ -1,0 +1,64 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+unsigned int hour,min;
+cin >> hour >> min;
+if(hour == 0 && min == 0)
+	{
+	cout << "00:00";
+	}	
+else
+	{
+		if(hour==0)
+			{
+				int Min;
+				Min = 60 - min;
+					if(Min<10)
+						{
+							cout << "00:0" << Min;
+						}
+					else
+						{
+							cout << "00:" << Min;
+						}
+			}
+		else if(min==0)
+			{
+			int Hour;
+			Hour = 12-hour;
+				if(Hour<10)
+						{
+							cout << "0" << Hour << ":00";
+						}
+					else
+						{
+							cout << Hour << ":00";
+						}
+			}
+		else
+			{
+				int Hour,Min;
+				Hour = 12 - hour;
+				Min = 60 - min;
+					if(Hour < 10 && Min < 10 )
+						{
+							cout << "0" << Hour << ":0" << Min;
+						}
+					else if(Hour < 10 && Min >= 10 )
+						{
+						cout << "0" << Hour << ":" << Min;	
+						}
+					else if(Hour >= 10 && Min < 10 )
+						{
+						cout << Hour << ":0" << Min;
+						}
+					else
+					{
+					cout << Hour << ":" << Min;
+					}
+				
+			}
+	}
+return 0;
+}
