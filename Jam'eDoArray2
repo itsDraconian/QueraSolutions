@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n,m;
+    cin >> n >> m;
+    
+    int numx[n][m];
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < m; j++)
+        {
+            cin >> numx[i][j];
+        }
+    }
+    
+    int numy[n][m];
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < m; j++)
+        {
+            cin >> numy[i][j];
+        }
+    }
+    int numz[n][m];
+    for ( int i=0 ; i<n ; i++)
+    {
+          for ( int j=0 ; j<m ; j++)
+            {
+                   numz[i][j]=numx[i][j]+numy[i][j];
+            }  
+           
+     }
+for ( int i=0 ; i<n ; i++)
+    {
+          for ( int j=0 ; j<m ; j++)
+            {
+                   cout << numz[i][j]<< " " ;
+            }  
+           cout<<endl;
+     }
+    
+    return 0;
+}
