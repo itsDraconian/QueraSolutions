@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+const int a=1;
+const int b=2;
+const int c=3;
+const int d=4;
+const int e=5;
+const int f=6;
+const int g=7;
+const int h=8;
+const int i=9;
+const int j=10;
+const int k=11;
+const int l=12;
+const int m=13;
+const int n=14;
+const int o=15;
+const int p=16;
+const int q=17;
+const int r=18;
+const int s=19;
+const int t=20;
+const int u=21;
+const int v=22;
+const int w=23;
+const int x=24;
+const int y=25;
+const int z=26;
+char f1,f2;
+cin>> f1;
+cin>> f2;
+char f3;
+f3= f2 - f1;
+cout << (int)f3;
+return 0;
+}
