@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int n,f,x,res;
+cin >> n;
+f= n/2;
+x=n-f;
+res=(f+1)*(x+1);
+cout << res;
+return 0;
+}
