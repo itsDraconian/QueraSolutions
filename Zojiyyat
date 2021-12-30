@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+    {
+        int a,b,c,x;
+        cin >> a;
+        cin >> b;
+        cin >> c;
+        if(a%2==0 || (b%2==0 && c%2==0))
+            {
+                cout << "good";
+            }
+        else
+            {
+                cout << "bad";
+            }
+        return 0;
+    }
