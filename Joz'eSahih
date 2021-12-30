@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+float k;
+cin>>k;
+int c;
+c=k;
+cout << c;
+}
