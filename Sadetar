@@ -1,0 +1,33 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main()
+{
+float a,b,c,d;
+float sum,mul,Min,Max1,Max2,Max3,Min1,Min2,Min3;
+float avg;
+cin >> a;
+cin >> b;
+cin >> c;
+cin >> d;
+//+
+sum = a+b+c+d;
+//
+avg = sum/4;
+//
+mul = a*b*c*d;
+//
+Max1 = max(a, b);
+Max2 = max(c, d);
+Max3 = max(Max1, Max2);
+//
+Min1 = min(a, b);
+Min2 = min(c, d);
+Min3 = min(Min1, Min2);
+cout << setprecision ( 6 ) << fixed << "Sum : " << sum << endl;
+cout << setprecision ( 6 ) << fixed << "Average : " << avg << endl;
+cout << setprecision ( 6 ) << fixed << "Product : " << mul << endl;
+cout << setprecision ( 6 ) << fixed << "Max : " << Max3 << endl;
+cout << setprecision ( 6 ) << fixed << "Min : " << Min3;
+return 0;
+}
